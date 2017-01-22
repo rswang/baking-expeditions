@@ -1,0 +1,29 @@
+/* Font Styles */
+
+.light {
+  font-weight: 100;
+}
+
+.cursive {
+  font-family: $font-cursive;
+  text-transform: lowercase;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+/* Colors */
+
+.cyan {
+  color: $cyan;
+}
+
+/* Flexbox */
+
+.display-flex {
+  display: flex;
+  display: '-moz-flex';
+  display: '-ms-flexbox';
+  display: '-ms-flex';
+}
