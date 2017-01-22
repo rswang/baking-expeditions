@@ -1,0 +1,99 @@
+body {
+  font: 14px "Lato", sans-serif;
+  font-weight: 300;
+  padding: 0 20px; }
+
+a {
+  color: #00BCD4; }
+
+/* Font Styles */
+.light {
+  font-weight: 100; }
+
+.cursive {
+  font-family: "Grand Hotel";
+  text-transform: lowercase; }
+
+.font-18 {
+  font-size: 18px; }
+
+/* Colors */
+.cyan {
+  color: #00BCD4; }
+
+/* Flexbox */
+.display-flex {
+  display: flex;
+  display: '-moz-flex';
+  display: '-ms-flexbox';
+  display: '-ms-flex'; }
+
+.flex-column {
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.align-center {
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center; }
+
+.comingSoon {
+  margin-top: 100px; }
+
+.comingSoon-body {
+  max-width: 430px; }
+
+.header-heading {
+  color: #000000;
+  display: inline-block;
+  font-family: "Raleway";
+  font-size: 30px;
+  letter-spacing: 8px;
+  margin: 20px auto;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.header-image {
+  display: flex;
+  flex: 1;
+  height: 100px;
+  overflow: hidden;
+  position: relative; }
+
+.header-image:not(:last-child) {
+  margin-right: 10px; }
+
+.header-image img {
+  height: auto;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.nav-line {
+  border-top: 1px solid #00BCD4;
+  flex: 1;
+  transform: translateY(40%); }
+
+.nav-link {
+  border-bottom: 1px solid transparent;
+  color: #AD1457;
+  display: inline-flex;
+  font-family: "Grand Hotel";
+  font-size: 18px;
+  margin: 20px 10px 40px;
+  text-decoration: none;
+  text-transform: lowercase; }
+
+.nav-link.is-active {
+  color: #00BCD4; }
+
+.nav-link:hover {
+  border-color: #00BCD4;
+  cursor: pointer; }

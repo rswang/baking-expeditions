@@ -27,3 +27,17 @@
   display: '-ms-flexbox';
   display: '-ms-flex';
 }
+
+.flex-column {
+  -webkit-flex-direction: column;
+     -moz-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.align-center {
+  -webkit-align-items: center;
+     -moz-align-items: center;
+      -ms-align-items: center;
+          align-items: center;
+}
