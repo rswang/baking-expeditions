@@ -1,12 +1,12 @@
 import React from 'react';
-import { IndexLink, Link } from 'react-router';
+
+import Header from './Header';
 
 class Layout extends React.Component {
   render() {
     return (
       <div>
-        <div><IndexLink to='/'>Home</IndexLink></div>
-        <div><Link to='/about'>About</Link></div>
+        <Header />
         {this.props.children}
       </div>
     );

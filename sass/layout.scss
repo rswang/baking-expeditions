@@ -1,0 +1,55 @@
+@import '_variables';
+
+.header-heading {
+  color: $black;
+  display: inline-block;
+  font-family: $font-heading;
+  font-size: 30px;
+  letter-spacing: 8px;
+  margin: 20px auto;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header-image {
+  display: flex;
+  flex: 1;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.header-image:not(:last-child) {
+  margin-right: 10px;
+}
+.header-image img {
+  height: auto;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.nav-line {
+  border-top: 1px solid $cyan;
+  flex: 1;
+  transform: translateY(40%);
+}
+.nav-link {
+  border-bottom: 1px solid transparent;
+  color: $pink-800;
+  display: inline-flex;
+  font-family: $font-cursive;
+  font-size: 18px;
+  margin: 20px 10px 40px;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+.nav-link.is-active {
+  color: $cyan;
+}
+.nav-link:hover {
+  border-color: $cyan;
+  cursor: pointer;
+}

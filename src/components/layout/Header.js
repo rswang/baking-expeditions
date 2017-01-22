@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { IndexLink } from 'react-router';
+
+import NavBar from './NavBar';
 
 const PREVIEW_IMAGES = [
   { name: 'Strawberry Tart', url: '/images/baking/strawberry-tart.jpg' },
@@ -15,10 +17,10 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <Link to='/' className='header-heading'>
+        <IndexLink to='/' className='header-heading'>
           <span>Baking</span>
           <span className='light'>Expeditions</span>
-        </Link>
+        </IndexLink>
         <div className='display-flex'>
           {PREVIEW_IMAGES.map((image, i) => (
             <div className='header-image' key={i}>
@@ -26,6 +28,7 @@ class Header extends React.Component {
             </div>
           ))}
         </div>
+        <NavBar />
       </div>
     );
   }
