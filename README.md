@@ -8,6 +8,7 @@ Blogging my baking expeditions. #bakingexpeditions #noms
     cd baking-expeditions
     npm install # Install dependencies from package.json
     webpack # Generate JS bundle
+    gulp sass # Build CSS
     npm start
 
 The app will be running at http://localhost:3000.
